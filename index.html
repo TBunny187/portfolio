@@ -6,7 +6,111 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sean's Portfolio</title>
     </head>
-    <body>
-        
+    <body class="background">
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <!-- Breaks inserted to add space between navbar and the first heading -->
+        <br><br>
+
+        <!-- BACKGROUND VIDEO -->
+        <div id="Home">
+            <video autoplay muted loop id="typing_video">
+                <source src="./videos/coding2.mp4" type="video/mp4">
+                <!-- Display message if video fails to run -->
+                Your browser does not support HTML5 video
+            </video>
+        </div>
+
+        <!-- VIDEO TEXT -->
+        <div class="video_text">
+            <h1 class="white_text">Sean's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Programming today is a race between software engineers
+                        <br>striving to build bigger and better idiot-proof programs
+                        <br>and the Universe trying to produce bigger and better idiots.
+                        <br>So far, the Universe is winning.
+                    </q>
+                    <br> -Rick Cook
+                    <br>
+                    <br> My name is Sean. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for visiting, and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!-- ABOUT SECTION -->
+        <div class="row" id="About">
+            <!-- Left column -->
+            <div class="column_2">
+                <img src="./images/dual_screens.jpg" alt="computer setup with 2 screens">
+            </div>
+            <!-- Right column -->
+            <div class="column_1">
+                <h1>About</h1>
+                <p>
+                    I am a student in <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a> Bootcamp, striving to become a programmer and web developer.
+                    <br>
+                    <br>I have had a love for computers technology since I was a teenager, and changing careers to finally follow my lifelong dream of being a coder.
+                    <br>
+                    <br>As a learning full-stack developer, I would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!-- GITHUB SECTION -->
+        <div class="row" id="GitHub">
+            <!-- Left column -->
+            <div class="column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/tbunny187" target="_blank">My GitHub Profile</a></p>
+                </p>
+            </div>
+            <!-- Right column -->
+            <div class="column_2">
+                <a href="https://github.com/tbunny187" target="_blank"><img src="./images/github.jpg" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div class="row" id="Contact">
+            <!-- Contact image, left column -->
+            <div class="column_2 column_tall">
+                <img src="./images/email.jpg" alt="Contact_Image">
+            </div>
+            <!-- Contact form, right column -->
+            <div class="column_1 column_tall">
+                <h1>Contact</h1>
+                <!-- This specifies where and how to send the form data; we are leaving it blank -->
+                <form action="https://formspree.io/f/mqkrerpk" method="post">
+                    <label for="name">Name:</label>
+                        <input id="name" type="text" name="name" placeholder="Please enter your name here">
+                    <label for="email">Email:</label>
+                        <input id="email" name="email" placeholder="Please enter your email here">
+                    <label for="message">Message:</label>
+                        <input id="message" name="message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!-- FOOTER SECTION -->
+        <footer>
+            <p>
+                <p class="center">Made by Sean Walters in conjunction with <a href="https://learncodinganywhere.com" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
     </body>
 </html>

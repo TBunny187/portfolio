@@ -74,6 +74,13 @@ img {
     margin-right: auto;
 }
 
+/* Image element hover effects */
+img:hover {
+    filter: grayscale(5%); /* Brings back most of the image's color when hovered over */
+    transition: transform 1s; /* Transition lasts 1 second */
+    transform: scale(1.1); /* Image is increased slightly when hovered over */
+}
+
 /* The @media rule is used in media queries to apply different styles for different media/types of devices */
 /* On screens 576px and smaller the images will be 100px tall and centered vertically in the column */
 @media screen and (max-width: 576px) {

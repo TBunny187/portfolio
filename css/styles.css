@@ -44,12 +44,12 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Perpetua, "Rockwell Extra Bold";
     text-align: justify; /* Justify text within paragraph elements */
-    letter-spacing: 1px; /* This expands the text slightly */
-    font-size: 20px;
-    padding-left: 20px; /* Adds padding to the left of the paragraph element */
-    padding-right: 20px; /* Adds padding to the right of the paragraph element */
+    letter-spacing: .1vw; /* This expands the text slightly */
+    font-size: 2.5vw;
+    padding-left: 1vw; /* Adds padding to the left of the paragraph element */
+    padding-right: 1vw; /* Adds padding to the right of the paragraph element */
 }
 
 /* Paragraph element hover effect */
@@ -194,6 +194,14 @@ footer {
 /* END VIDEO STYLING */
 
 /* SLIDESHOW STYLING */
+#Slideshow_Background {
+    background: rgba(255, 255, 255, .35);
+}
+
+.mySlides {
+    display: none;
+}
+
 #Slideshow_Container {
     width: 39.5vw;
     height: auto;
@@ -295,7 +303,7 @@ footer {
     float: left;
     width: 50%; /* This ensures the column takes up half of hte page width */
     padding: 1.6%;
-    height: 450px; /* Sets the height of the column to 400px - this may need to be adjusted depending on the text you enter */
+    height: 500px; /* Sets the height of the column to 400px - this may need to be adjusted depending on the text you enter */
     background-color: #f2f2f2; /* Sets the background color of the columns with class "column_1 */
 }
 
@@ -303,7 +311,7 @@ footer {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 450px;
+    height: 500px;
     background-color: #4d4d4d;
 }
 

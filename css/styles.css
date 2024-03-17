@@ -198,6 +198,10 @@ footer {
     background: rgba(255, 255, 255, .35);
 }
 
+.slideshowDots {
+    text-align: center;
+}
+
 .mySlides {
     display: none;
 }

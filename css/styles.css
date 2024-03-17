@@ -126,7 +126,7 @@ footer {
 .navbar a {
     float: left; /* This specifies that the text floats on the left of the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: #f00; /* This is the font color for text on our navbar */
+    color: #c0c0c0; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
     font-family: "Avant Garde", Halvetica; /* This specifies the font family for text on our navbar */
@@ -153,6 +153,7 @@ footer {
 
 /* Navbar home button */
 .navbar a.active { /* This targets the a element on the navbar with the "active" class */
+    color: #fff;
     background-color: darkgray;
 }
 /* END NAVBAR STYLING */

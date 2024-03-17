@@ -253,7 +253,7 @@ footer {
     width: 100%;
     text-align: center;
     font-family: Perpetua, "Rockwell Extra Bold";
-    letter-spacing: 1vw;
+    letter-spacing: .1vw;
     font-size: 1.5vw;
     background-color: rgba(0, 0, 0, .75);
     font-weight: bold;
